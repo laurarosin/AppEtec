@@ -90,7 +90,7 @@ namespace AppEtec
                 Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Contato)));
                 IsPresented = false;
             }
-            catch (Exception ex)2
+            catch (Exception ex)
             {
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
