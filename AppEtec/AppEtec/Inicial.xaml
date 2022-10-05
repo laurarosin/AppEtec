@@ -12,17 +12,17 @@
             <StackLayout Padding="10">
                 <Label Text="Olá! Este é o app para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
                        FontSize="Medium"
-                       Style="{StaticResource textoCentraliado}"/>
+                       Style="{StaticResource textoCentralizado}"/>
 
                 <Label Text="O curso tem três módulos e dura um ano e meio. Pensamos em desenvolver este app para explicar o conteúdo"
                        FontSize="Medium"
-                       Style="{StaticResource textoCentraliado}"/>
+                       Style="{StaticResource textoCentralizado}"/>
 
                 <Label Text="Em breve este app estará disponível na Play Store para download"
                        TextColor="#AB0209"
-                       Style="{StaticResource textoCentraliado}"/>
+                       Style="{StaticResource textoCentralizado}"/>
 
-                <Image Resources=""/>
+                <!-- <Image Resources=""/> -->
 
                 <Label Text="Este app foi desenvolvido sobre a orientação do Prof.Tiago.A.Silva e da Prof.Nídia Castelli"
                        Style="{StaticResource textoCentralizado}"/>

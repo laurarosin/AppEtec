@@ -24,7 +24,7 @@
                 </StackLayout>
 
                 <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
-                    <Button Text="Inicial" Clicked="Open_inicial" Style="{d:StaticResource botaoVermelho}"/>
+                    <Button Text="Inicial" Clicked="Open_Inicial" Style="{d:StaticResource botaoVermelho}"/>
                     <Button Text="Primeiro Módulo" Clicked="Open_Primeiro" Style="{d:StaticResource botaoCinza}"/>
                     <Button Text="Segundo Módulo" Clicked="Open_Segundo" Style="{d:StaticResource botaoCinza}"/>
                     <Button Text="Terceiro Módulo" Clicked="Open_Terceiro" Style="{d:StaticResource botaoCinza}"/>
