@@ -102,19 +102,64 @@ namespace AppEtec.Views
             }
         }
 
-        private void Button_Clicked_4(object sender, EventArgs e)
+        private async void Button_Clicked_4(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Programação de Aplicativos Mobile I",
 
+                    AtribuicoesResponsabilidades = "Elaborar projetos de aplicativos para plataformas móveis",
+
+                    ValoresAtitudes = "Incentivar a criatividade. ° Responsabilizar-se pela produção, utilização e divulgação de informações. ° Estimular a organização"
+                };
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch(Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "ok");
+            }
         }
 
-        private void Button_Clicked_5(object sender, EventArgs e)
+        private async void Button_Clicked_5(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Programação Web II",
 
+                    AtribuicoesResponsabilidades = "Planejar projetos de sistemas de informação web",
+
+                    ValoresAtitudes = "Responsabilizar-se pela produção, utilizando a divulgação de informações."
+                };
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex) 
+            {
+                await DisplayAlert("Ops!", ex.Message, "Ok");
+            }
         }
 
-        private void Button_Clicked_6(object sender, EventArgs e)
+        private async void Button_Clicked_6(object sender, EventArgs e)
         {
+            try
+            {
+                var c = new Componente
+                {
+                    Nome = "Planejamento do Trabalho de Conclusão de Curso (TCC) em Desenvolvimento de Sistemas",
 
+                    AtribuicoesResponsabilidades = "Planejar Projetos de Sistemas Computacionais",
+
+                    ValoresAtitudes = "Comunicar-se com a equipe com clareza e objetividade. °Organizar procedimentos de maneira diversa, visando melhor eficiência"
+                };
+                await Navigation.PushAsync(new VerComponente(c));
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
         }
     }
 }
