@@ -147,7 +147,9 @@ namespace AppEtec.Views
                 {
                     Nome = "Fundamentos da Informática",
 
-                    AtribuicoesResponsabilidades = "Desenvolver a criatividade.°Incentivar comportamentos éticos.º Pomover ações que considerem o respeito ás normas estabelecidas"
+                    AtribuicoesResponsabilidades = "Operar Sistemas Co´mputacionais",
+
+                    ValoresAtitudes = "Desenvolver a criatividade.°Incentivar comportamentos éticos.º Pomover ações que considerem o respeito ás normas estabelecidas\""
                 };
                 await Navigation.PushAsync(new VerComponente(c));
             }
