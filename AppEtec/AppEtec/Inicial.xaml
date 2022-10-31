@@ -22,7 +22,6 @@
                        TextColor="#AB0209"
                        Style="{StaticResource textoCentralizado}"/>
 
-                <Image Source="https://cdn.mundodastribos.com/2011/01/ETEC-Jau-SP-Cursos-Enderecos.jpg"/>
 
                 <Label Text="Este app foi desenvolvido sobre a orientação do Prof.Tiago.A.Silva e da Prof.Nídia Castelli"
                        Style="{StaticResource textoCentralizado}"/>
